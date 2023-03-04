@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amphouse</title>
+    <link rel="icon" href="/assest/img/AMPH-Logo/AMPHFavicon.svg" />
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="/assest/css/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assest/css/cus.css" />
+  </head>
+  <body>
+    <div class="d-flex">
+      <aside class="aside shadow">
+        <div class="position-sticky top-0 vh-100">
+          <div class="card border-0 bg-dark">
+            <div class="card-body p-0 bg-gray">
+              <div class="mx-0 bg-orange">
+                <img
+                  src="/assest/img/AMPH-Logo/AMPH-Logo_Orange.svg"
+                  alt=""
+                  class="logo"
+                />
+              </div>
+              <div class="mt-3">
+                <div class="list-group list-group-flush mb-3">
+                  <a
+                    href="/index.html"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-chart-simple me-2"></i>
+                    Dashboard
+                  </a>
+                  <a
+                    href="/more page/lyris.html"
+                    class="list-group-item list-group-item-action active fw-bold"
+                  >
+                    <i class="fa-solid fa-music me-2"></i>
+                    Lyrics
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-compact-disc me-2"></i>
+                    Album
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-square-pen me-2"></i>
+                    Composer
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-user me-2"></i>
+                    Artist
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-users me-1"></i>
+                    Users
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-globe me-1"></i>
+                    Help Center
+                  </a>
+                  <a
+                    href="#"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-gear me-1"></i>
+                    Settings
+                  </a>
+                  <div class="d-flex align-items-center ms-3">
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="changeTheme"
+                      />
+                    </div>
+                    <p class="fw-bold mt-2">Change Theme</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <div class="__backdrop fade"></div>
+      <main class="main">
+        <div class="container-fluid">
+          <nav class="row px-2 mb-3 shadow position-sticky top-0 nav border border-end-0 border-start-0 border-top-0 border-bottom-5 bg animate__animated animate__fadeInDown">
+            <div class="col">
+              <div
+                class="row justify-content-between align-items-center py-lg-3 py-1"
+              >
+                <div class="col d-lg-none">
+                  <div class="aside-btn">
+                    <i class="fa-solid fa-bars ms-1"></i>
+                  </div>
+                </div>
+
+                <div class="col">
+                  <div class="me-3 text-end d-flex justify-content-between justify-content-lg-end">
+                    <button class="btn btn-outline-secondary mx-3 ">
+                      <img
+                        src="/assest/img/Flag_of_the_United_States.svg"
+                        alt=""
+                        class="haha"
+                      />
+                    </button>
+                    <button class="btn btn-outline-secondary fw-bold me-3 px-3">
+                      Admin
+                    </button>
+                    <button class="btn btn-success fw-bold">A</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+          <div class="card w-100 border-0 shadow rounded-3 px-3 bg-contact">
+            <div class="card-body">
+              <div
+                class="row flex align-items-center justify-content-between mb-2 mt-5"
+              >
+                <div class="col-6">
+                  <div class="">
+                    <h5 class="fw-bold">Lyrics Form</h5>
+                  </div>
+                </div>
+                <div class="col-6 text-end">
+                  <button class="btn btn-secondary rounded-3 fw-bold">Close</button>
+                  <button class="btn btn-primary rounded-3 fw-bold">Submit</button>
+                </div>
+              </div>
+              <hr class="fw-bold"/>
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >Lyrics Title(English)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >External Link</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >Lyrics Title(Unicode)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3 d-flex align-items-center">
+                    <div class="">
+                      <label for="exampleFormControlInput1" class="form-label fw-bold"
+                        >Cover Path</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control w-100"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                    <div class="mx-3">
+                      <button class="btn btn-light mt-4">
+                        <i class="fa-solid fa-image text-primary"></i>
+                      </button>
+                      <button class="btn btn-light mt-4">
+                        <i class="fa-solid fa-plus text-primary"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >Lyrics Title(Zawgyi)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >Created Date</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100 fw-bold"
+                      id="exampleFormControlInput1"
+                      placeholder="3/3/2023, 14:22:26"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >Original Link</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label fw-bold"
+                      >Created By</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100 fw-bold"
+                      id="exampleFormControlInput1"
+                      placeholder="Admin"
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Select band</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose band"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Select Genre</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Genre"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Select Music Producer</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Music Producer"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Select Composer</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Composer"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Select Singer</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Singer"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Select Album</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Album"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-12 mb-4">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Lyrics</label
+                  >
+                  <div class="form-floating">
+                    <textarea
+                      class="form-control fw-bold"
+                      placeholder="Leave a comment here"
+                      id="floatingTextarea2"
+                      style="height: 300px"
+                    ></textarea>
+                    <label for="floatingTextarea2" class="fw-bold text-black">Enter Lyrics</label>
+                  </div>
+                </div>
+                <hr class="mb-4" />
+                <div class="col-lg-12 text-end">
+                  <button class="btn btn-secondary rounded-3">
+                    Close False
+                  </button>
+                  <button class="btn btn-primary rounded-3">Submit</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="/assest/js/cus.js"></script>
+  </body>
+</html>
