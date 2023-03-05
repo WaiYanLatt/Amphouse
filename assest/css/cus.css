@@ -52,6 +52,9 @@ body{
     width: 25px;
     height: 25px;
 }
+.w-logo{
+    width:70px;
+}
 .logo{
     width: 100%;
     height: 65px;

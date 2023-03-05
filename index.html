@@ -8,6 +8,7 @@
     <link rel="icon" href="/assest/img/AMPH-Logo/AMPHFavicon.svg">
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="/assest/css/animate.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,73 +19,76 @@
   </head>
   <body>
     <div class="d-flex">
-      <aside class="aside">
+      <aside class="aside shadow">
         <div class="position-sticky top-0 vh-100">
-          <div class="card border-0">
+          <div class="card border-0 bg-dark">
             <div class="card-body p-0 bg-gray">
               <div class="mx-0 bg-orange">
-                <img src="/assest/img/AMPH-Logo/AMPH-Logo_Orange.svg" alt="" class="logo">
+                <img
+                  src="/assest/img/AMPH-Logo/AMPH-Logo_Orange.svg"
+                  alt=""
+                  class="logo"
+                />
               </div>
-              <div class="bg-gray mt-3">
+              <div class="mt-3">
                 <div class="list-group list-group-flush mb-3">
                   <a
                     href="/index.html"
-                    class="list-group-item list-group-item-action active"
+                    class="list-group-item list-group-item-action active fw-bold"
                   >
                     <i class="fa-solid fa-chart-simple me-2"></i>
                     Dashboard
                   </a>
                   <a
-                    href="/more page/lyris.html"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    href="/more page/lyrics.html"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-music me-2 text-white"></i>
+                    <i class="fa-solid fa-music me-2"></i>
                     Lyrics
                   </a>
                   <a
                     href="#"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-compact-disc text-white me-2"></i>
+                    <i class="fa-solid fa-compact-disc me-2"></i>
                     Album
                   </a>
                   <a
                     href="#"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-square-pen me-2 text-white"></i>
+                    <i class="fa-solid fa-square-pen me-2"></i>
                     Composer
                   </a>
                   <a
                     href="#"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-user me-2 text-white"></i>
+                    <i class="fa-solid fa-user me-2"></i>
                     Artist
                   </a>
                   <a
                     href="#"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-users me-1 text-white"></i>
+                    <i class="fa-solid fa-users me-1"></i>
                     Users
                   </a>
                   <a
                     href="#"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-globe me-2 text-white"></i>
+                    <i class="fa-solid fa-globe me-1"></i>
                     Help Center
                   </a>
                   <a
                     href="#"
-                    class="list-group-item list-group-item-action bg-gray text-white"
+                    class="list-group-item list-group-item-action fw-bold"
                   >
-                    <i class="fa-solid fa-gear me-2 text-white"></i>
+                    <i class="fa-solid fa-gear me-1"></i>
                     Settings
                   </a>
-                  <div class="d-flex align-items-center justify-content-start">
-                    <div class="me-2"><i class="fa-solid fa-sun"></i></div>
+                  <div class="d-flex align-items-center ms-3">
                     <div class="form-check form-switch">
                       <input
                         class="form-check-input"
@@ -93,7 +97,7 @@
                         id="changeTheme"
                       />
                     </div>
-                    <div><i class="fa-solid fa-moon"></i></div>
+                    <p class="fw-bold mt-2">Change Theme</p>
                   </div>
                 </div>
               </div>
@@ -104,43 +108,30 @@
       <div class="__backdrop fade"></div>
       <main class="main">
         <div class="container-fluid">
-          <nav class="row px-2 mb-3 pt-2 position-sticky top-0 nav">
-            <div class="col shadow">
+          <nav class="row px-2 mb-3 shadow position-sticky top-0 nav border border-end-0 border-start-0 border-top-0 border-bottom-5 bg animate__animated animate__fadeInDown">
+            <div class="col">
               <div
-                class="row justify-content-between align-items-center border p-1 rounded-2"
+                class="row justify-content-between align-items-center py-lg-3 py-1"
               >
                 <div class="col d-lg-none">
                   <div class="aside-btn">
-                    <i class="fa-solid fa-bars fa-2x text-secondary ms-1"></i>
+                    <i class="fa-solid fa-bars ms-1"></i>
                   </div>
                 </div>
+
                 <div class="col">
-                  <div class="text-center text-lg-start">
-                    <div class="input-group w-50">
-                      <i
-                        class="fa-solid fa-magnifying-glass me-3 mt-3 text-secondary"
-                      ></i>
-                      <input
-                        type="text"
-                        class="form-control border-0 my-1 rounded-3"
-                        placeholder="Search Lyris Artrist & Album"
+                  <div class="me-3 text-end d-flex justify-content-between justify-content-lg-end">
+                    <button class="btn btn-outline-secondary mx-3 ">
+                      <img
+                        src="/assest/img/Flag_of_the_United_States.svg"
+                        alt=""
+                        class="haha"
                       />
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="me-3 text-end">
-                    <i class="fa-solid fa-globe me-2 text-secondary"></i>
-                    <i class="fa-solid fa-comments me-2 text-secondary"></i>
-                    <a class="position-relative me-3">
-                      <i class="fa-solid fa-bell text-secondary p-2"></i>
-                      <span class="position-absolute top-0 start-100 translate-middle p-1 bg-orange border border-light rounded-circle">
-                        <span class="visually-hidden">New alerts</span>
-                      </span>
-                      </span>
-                    </a>
-                    <p class="d-inline-block ">Admin</p>
-                    <img src="/assest/img/gregory-hayes-h5cd51KXmRQ-unsplash.jpg" alt="" class="w-photo rounded-circle">
+                    </button>
+                    <button class="btn btn-outline-secondary fw-bold me-3 px-3">
+                      Admin
+                    </button>
+                    <button class="btn btn-success fw-bold">A</button>
                   </div>
                 </div>
               </div>
