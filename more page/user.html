@@ -132,67 +132,142 @@
           >
             <div class="card-body">
               <div class="row justify-content-between align-items-center">
-                <div class="col-lg-6">
-                  <div class="input-group">
-                    <div class="input-group-text">
-                      <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="col-lg-6">
+                    <div class="input-group">
+                      <div class="input-group-text">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
+                      <input
+                        type="text"
+                        class="form-control fw-bold"
+                        placeholder="Search..."
+                      />
                     </div>
-                    <input
-                      type="text"
-                      class="form-control fw-bold"
-                      placeholder="Search..."
-                    />
                   </div>
-                </div>
-                <div class="col-lg-6 text-end">
-                  <button
-                    class="btn btn-primary fw-bold"
-                    data-bs-toggle="modal"
-                    data-bs-target="#exampleModal"
-                  >
-                    <i class="fa-solid fa-user-plus"></i>
-                    User
-                  </button>
-                  <!-- Modal -->
-                  <div
-                    class="modal fade"
-                    id="exampleModal"
-                    tabindex="-1"
-                    aria-labelledby="exampleModalLabel"
-                    aria-hidden="true"
-                  >
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <h5 class="modal-title" id="exampleModalLabel">
-                            Modal title
-                          </h5>
-                          <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                            aria-label="Close"
-                          ></button>
-                        </div>
-                        <div class="modal-body">...</div>
-                        <div class="modal-footer">
-                          <button
-                            type="button"
-                            class="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                          >
-                            Close
-                          </button>
-                          <button type="button" class="btn btn-primary">
-                            Save changes
-                          </button>
+                  <div class="col-lg-6 text-end">
+                    <button
+                      class="btn btn-primary fw-bold"
+                      data-bs-toggle="modal"
+                      data-bs-target="#exampleModal"
+                    >
+                      <i class="fa-solid fa-user-plus"></i>
+                      User
+                    </button>
+                    <!-- Modal -->
+                    <div
+                      class="modal fade"
+                      id="exampleModal"
+                      tabindex="-1"
+                      aria-labelledby="exampleModalLabel"
+                      aria-hidden="true"
+                    >
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5
+                              class="modal-title fw-bold text-black"
+                              id="exampleModalLabel"
+                            >
+                              Add User Form
+                            </h5>
+                            <button
+                              type="button"
+                              class="btn-close"
+                              data-bs-dismiss="modal"
+                              aria-label="Close"
+                            ></button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="mb-3">
+                              <input
+                                type="text"
+                                class="form-control w-100 fw-bold"
+                                id="exampleFormControlInput1"
+                                placeholder="Name"
+                              />
+                            </div>
+                            <div class="mb-3">
+                              <input
+                                type="text"
+                                class="form-control w-100 fw-bold"
+                                id="exampleFormControlInput1"
+                                placeholder="Email"
+                              />
+                            </div>
+                            <div class="mb-3">
+                              <input
+                                type="text"
+                                class="form-control w-100 fw-bold"
+                                id="exampleFormControlInput1"
+                                placeholder="Password"
+                              />
+                            </div>
+                            <div class="mb-4">
+                              <div class="input-group">
+                                <input
+                                  type="text"
+                                  class="form-control border-secondary border-end-0 fw-bold"
+                                  aria-label="Text input with segmented dropdown button"
+                                  placeholder="Role"
+                                />
+                                <button
+                                  type="button"
+                                  class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                                  data-bs-toggle="dropdown"
+                                  aria-expanded="false"
+                                >
+                                  <span class="visually-hidden"
+                                    >Toggle Dropdown</span
+                                  >
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-end">
+                                  <li>
+                                    <a class="dropdown-item fw-bold" href="#"
+                                      >Admin</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a class="dropdown-item fw-bold" href="#"
+                                      >Author</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a class="dropdown-item fw-bold" href="#"
+                                      >Editor</a
+                                    >
+                                  </li>
+                                  <li>
+                                    <a class="dropdown-item fw-bold" href="#"
+                                      >User</a
+                                    >
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button
+                              type="button"
+                              class="btn btn-secondary fw-bold"
+                              data-bs-dismiss="modal"
+                            >
+                              Cancle
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-primary fw-bold"
+                            >
+                              Submit
+                            </button>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <table class="table table-secondary my-5">
+                <div class="col table-responsive">
+                  <table class="table table-secondary my-5 text-nowrap">
                     <thead class="fw-bold border-dark">
                       <th>USER</th>
                       <th>PROVIDER</th>
@@ -204,28 +279,32 @@
                     <tbody>
                       <tr>
                         <td class="fw-bold">
-                            <img src="/assest/img/gregory-hayes-h5cd51KXmRQ-unsplash.jpg" alt="" class="w-photo1 rounded-circle border border-warning">
-                           <span class="ms-3">Admin</span>
+                          <img
+                            src="/assest/img/gregory-hayes-h5cd51KXmRQ-unsplash.jpg"
+                            alt=""
+                            class="w-photo1 rounded-circle border border-warning"
+                          />
+                          <span class="ms-3">Admin</span>
                         </td>
                         <td>-</td>
                         <td>
-                            <p class="fw-bold">admin@amphouse.net</p>
-                            <p class="fw-bold text-secondary">User Email</p>
+                          <p class="fw-bold">admin@amphouse.net</p>
+                          <p class="fw-bold text-secondary">User Email</p>
                         </td>
                         <td>
-                            <button class=" btn btn-primary fw-bold">Admin</button>
+                          <button class="btn btn-primary fw-bold">Admin</button>
                         </td>
                         <td>
-                            <p class="fw-bold">22 feb 2023</p>
-                            <p class="fw-bold text-secondary">06:42 AM</p>
+                          <p class="fw-bold">22 feb 2023</p>
+                          <p class="fw-bold text-secondary">06:42 AM</p>
                         </td>
                         <td>
-                            <button class=" btn btn-warning">
-                                <i class="fa-solid fa-pen text-white"></i>
-                            </button>
-                            <button class=" btn btn-danger">
-                                <i class="fa-solid fa-trash text-white"></i>
-                            </button>
+                          <button class="btn btn-warning">
+                            <i class="fa-solid fa-pen text-white"></i>
+                          </button>
+                          <button class="btn btn-danger">
+                            <i class="fa-solid fa-trash text-white"></i>
+                          </button>
                         </td>
                       </tr>
                     </tbody>

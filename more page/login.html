@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  data-theme="dark">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,7 +7,7 @@
     <title>Login Form</title>
     <link rel="icon" href="/assest/img/AMPH-Logo/AMPHFavicon.svg" />
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,41 +17,85 @@
     <link rel="stylesheet" href="/assest/css/cus.css" />
   </head>
   <body>
-
-
     <div class="container my-5 overflow-hidden">
       <div class="row justify-content-between align-items-center mt-lg-5">
         <div class="col-lg-6 mt-lg-5">
-          <img src="/assest/img/bp.jpeg" alt="" class="w-100 shadow rounded-3 mb-5 mb-lg-0 headline" />
+          <img
+            src="/assest/img/bp.jpeg"
+            alt=""
+            class="w-100 shadow rounded-3 mb-5 mb-lg-0 headline"
+          />
         </div>
         <div class="col-lg-6 head mt-lg-5">
-            <img src="/assest/img/AMPH-Logo/AMPH-Logo_Orange.svg" alt="" class="rounded-circle w-logo">
-            <p class="fw-bold my-3">Welcome back ! Please login to your account</p>
-            <form>
-                <div class="mb-4">
-                  <input type="email" class="form-control fw-bold py-3" placeholder="Username">
-                </div>
-                <div class="mb-3">
-                  <input type="password" class="form-control fw-bold py-3"  placeholder="Password">
-                </div>
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label fw-bold" for="exampleCheck1">Remember Me</label>
-                  <a href="#" class="form-check-label fw-bold text-decoration-none ms-5" for="exampleCheck1">Forget Password</a>
-                </div>
-                <div class="d-lg-flex justify-content-between align-items-center">
-                <button type="submit" class="btn btn-dark w-100 mx-lg-3 fw-bold border-light py-3 rounded-4 mb-3 mb-lg-0">Login</button>
-                <button type="submit" class="btn btn-dark fw-bold w-100 border-light py-3 rounded-4">Sign Up</button>
-                </div>
-              </form>
-            <div class="d-flex align-items-center justify-content-start mt-4 fw-bold">
-                Change Theme
-                <div class="mx-2"><i class="fa-solid fa-sun"></i></div>
-                <div class="form-check form-switch">
-                  <input class="form-check-input" type="checkbox" role="switch" id="changeTheme">
-                </div>
-                <div><i class="fa-solid fa-moon"></i></div>
-               </div>
+          <img
+            src="/assest/img/AMPH-Logo/AMPH-Logo_Orange.svg"
+            alt=""
+            class="rounded-circle w-logo"
+          />
+          <p class="fw-bold my-3">
+            Welcome back ! Please login to your account
+          </p>
+          <form>
+            <div class="mb-4">
+              <input
+                type="email"
+                class="form-control fw-bold py-3"
+                placeholder="Username"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control fw-bold py-3"
+                placeholder="Password"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label fw-bold" for="exampleCheck1"
+                >Remember Me</label
+              >
+              <a
+                href="#"
+                class="form-check-label fw-bold text-decoration-none ms-5"
+                for="exampleCheck1"
+                >Forget Password</a
+              >
+            </div>
+            <div class="d-lg-flex justify-content-between align-items-center">
+              <button
+                type="submit"
+                class="btn btn-dark w-100 mx-lg-3 fw-bold border-light py-3 rounded-4 mb-3 mb-lg-0"
+              >
+                Login
+              </button>
+              <button
+                type="submit"
+                class="btn btn-dark fw-bold w-100 border-light py-3 rounded-4"
+              >
+                Sign Up
+              </button>
+            </div>
+          </form>
+          <div
+            class="d-flex align-items-center justify-content-start mt-4 fw-bold"
+          >
+            Change Theme
+            <div class="mx-2"><i class="fa-solid fa-sun"></i></div>
+            <div class="form-check form-switch">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                role="switch"
+                id="changeTheme"
+              />
+            </div>
+            <div><i class="fa-solid fa-moon"></i></div>
+          </div>
         </div>
       </div>
     </div>
@@ -61,7 +105,6 @@
     <script src="/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="/assest/js/login.js"></script>
     <script>
-        
       // scrollreval
       ScrollReveal().reveal(".headline", {
         origin: "left",
