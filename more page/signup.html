@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login Form</title>
+    <title>Sign Up Form</title>
     <link rel="icon" href="/assest/img/AMPH-Logo/AMPHFavicon.svg" />
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
@@ -33,24 +33,73 @@
             class="rounded-circle w-logo"
           />
           <p class="fw-bold my-3">
-            Enter you email and we send you a password reset link
+            Please complete to create your account
           </p>
           <form>
-            <div class="mb-4">
+            <div class="mb-4 d-flex justify-content-between align-items-center">
+              <input
+                type="text"
+                class="form-control fw-bold py-2 me-3"
+                placeholder="First Name"
+              />
+              <input
+                type="text"
+                class="form-control fw-bold py-2"
+                placeholder="Last Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control fw-bold py-2"
+                placeholder="Username"
+              />
+            </div>
+            <div class="mb-3">
               <input
                 type="email"
                 class="form-control fw-bold py-2"
                 placeholder="Email"
               />
             </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control fw-bold py-2"
+                placeholder="Password"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control fw-bold py-2"
+                placeholder="Comfirm Password"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label fw-bold" for="exampleCheck1"
+                >I agree with terms and conditional</label
+              >
+            </div>
             <div class="d-flex justify-content-center">
               <button
                 type="submit"
                 class="btn btn-dark fw-bold w-50 border-light py-2 rounded-4"
               >
-                Send Request
+                Sign Up
               </button>
             </div>
+            <a
+                href="#"
+                class="form-check-label fw-bold mt-3 text-center d-block"
+                for="exampleCheck1"
+                >Already have an account? Sign In.</a
+              >
           </form>
           <div
             class="d-flex align-items-center justify-content-start mt-4 fw-bold"
