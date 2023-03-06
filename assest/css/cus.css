@@ -42,6 +42,9 @@ body{
     border-left-color:#f47423!important ;
     transition: 0.5s;
 }
+.text-orange{
+    color:#f47423;
+}
 .bg-orange{
     background-color: #f47423;
 }
