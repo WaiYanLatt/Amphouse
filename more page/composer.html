@@ -133,18 +133,64 @@
                     <h5 class="fw-bold">Composer Form</h5>
                   </div>
                 </div>
-                <div class="col-6 d-flex justify-content-end">
-                  <button class="btn btn-secondary rounded-3 fw-bold me-2">Close</button>
-                  <button class="btn btn-primary rounded-3 fw-bold">Submit</button>
-                </div>
               </div>
               <hr class="fw-bold"/>
               <div class="row justify-content-center align-items-center">
+                
+              <div class="col-12">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Composer Name (English)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control w-100"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+              
+              <div class="col-lg-6">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label fw-bold"
+                    >Composer Name (Burmese)</label
+                  >
+                  <input
+                    type="text"
+                    class="form-control w-100"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+              </div>
+              <div class="col-lg-6 mb-4">
+                <label for="exampleFormControlInput1" class="form-label fw-bold"
+                  >Gender</label
+                >
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control border-secondary border-end-0 fw-bold"
+                    aria-label="Text input with segmented dropdown button"
+                    placeholder="Choose Gender"
+                  />
+                  <button
+                    type="button"
+                    class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <span class="visually-hidden">Toggle Dropdown</span>
+                  </button>
+                  <ul class="dropdown-menu dropdown-menu-end">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                  </ul>
+                </div>
+              </div>
                 <div class="col-lg-6">
                   <div class="mb-3 d-flex align-items-center">
                     <div class="">
                       <label for="exampleFormControlInput1" class="form-label fw-bold"
-                        >Cover Path</label
+                        >Profile Picture</label
                       >
                       <input
                         type="text"
@@ -157,51 +203,15 @@
                         <i class="fa-solid fa-image text-primary"></i>
                       </button>
                       <button class="btn btn-light mt-4">
-                        <i class="fa-solid fa-plus text-primary"></i>
+                        <i class="fa-solid fa-arrow fa-arrow-up text-primary"></i>
                       </button>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6 mb-4">
-                  <label for="exampleFormControlInput1" class="form-label fw-bold"
-                    >Select Gender</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Gender"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                  </div>
-                </div>
                 <div class="col-lg-6">
                   <div class="mb-3">
                     <label for="exampleFormControlInput1" class="form-label fw-bold"
-                      >Composer Name (English)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label fw-bold"
-                      >Created Date</label
+                      >Relase Date</label
                     >
                     <input
                       type="text"
@@ -211,53 +221,10 @@
                     />
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label fw-bold"
-                      >Composer Name (Myanmar Unicode)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label fw-bold"
-                      >Created By</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100 fw-bold"
-                      id="exampleFormControlInput1"
-                      placeholder="Admin"
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label fw-bold"
-                      >Composer Name (Myanmar Zawgyi)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <div class="bg-white w-100 h-25"></div>
-                 </div>
               
                 <hr class="mb-4" />
                 <div class="col-lg-12 text-end">
-                  <button class="btn btn-secondary rounded-3 fw-bold">
-                    Close False
-                  </button>
-                  <button class="btn btn-primary rounded-3 fw-bold">Submit</button>
+                  <button class="btn btn-dark rounded-3 fw-bold px-5 border">Submit</button>
                 </div>
               </div>
             </div>

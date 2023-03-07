@@ -38,7 +38,7 @@ const data = {
     },
     {
       label: "My Second dataset",
-      backgroundColor: "blue",
+      backgroundColor: "#3FF28C",
       borderColor: "rgb(0, 210, 252,0.3)",
       borderRadius: 7,
       data: [

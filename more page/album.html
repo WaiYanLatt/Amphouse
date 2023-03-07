@@ -139,46 +139,42 @@
                     <h5 class="fw-bold">Album Form</h5>
                   </div>
                 </div>
-                <div class="col-6 d-flex justify-content-end">
-                  <button class="btn btn-secondary rounded-3 fw-bold me-2">
-                    Close
-                  </button>
-                  <button class="btn btn-primary rounded-3 fw-bold">
-                    Submit
-                  </button>
-                </div>
               </div>
               <hr class="fw-bold" />
               <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label fw-bold"
+                      >Album Name (English)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
+                  </div>
+                </div>
                 <div class="col-lg-6">
-                  <div class="mb-3 d-flex align-items-center">
-                    <div class="">
-                      <label
-                        for="exampleFormControlInput1"
-                        class="form-label fw-bold"
-                        >Cover Path</label
-                      >
-                      <input
-                        type="text"
-                        class="form-control w-100"
-                        id="exampleFormControlInput1"
-                      />
-                    </div>
-                    <div class="mx-3 d-flex">
-                      <button class="btn btn-light mt-4 me-2">
-                        <i class="fa-solid fa-image text-primary"></i>
-                      </button>
-                      <button class="btn btn-light mt-4">
-                        <i class="fa-solid fa-plus text-primary"></i>
-                      </button>
-                    </div>
+                  <div class="mb-3">
+                    <label
+                      for="exampleFormControlInput1"
+                      class="form-label fw-bold"
+                      >Album Name (Burmese)</label
+                    >
+                    <input
+                      type="text"
+                      class="form-control w-100"
+                      id="exampleFormControlInput1"
+                    />
                   </div>
                 </div>
                 <div class="col-lg-6 mb-4">
                   <label
                     for="exampleFormControlInput1"
                     class="form-label fw-bold"
-                    >Select Album Type</label
+                    >Album Type</label
                   >
                   <div class="input-group">
                     <input
@@ -203,25 +199,40 @@
                     </button>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label
-                      for="exampleFormControlInput1"
-                      class="form-label fw-bold"
-                      >Album Name (English)</label
-                    >
+                <div class="col-lg-6 mb-4">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fw-bold"
+                    >Genre</label
+                  >
+                  <div class="input-group">
                     <input
                       type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Genre"
                     />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
                   </div>
                 </div>
                 <div class="col-lg-6 mb-4">
                   <label
                     for="exampleFormControlInput1"
                     class="form-label fw-bold"
-                    >Select Band</label
+                    >Band</label
                   >
                   <div class="input-group">
                     <input
@@ -246,32 +257,18 @@
                     </button>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label
-                      for="exampleFormControlInput1"
-                      class="form-label fw-bold"
-                      >Album Name (Unicode)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                </div>
                 <div class="col-lg-6 mb-4">
                   <label
                     for="exampleFormControlInput1"
                     class="form-label fw-bold"
-                    >Select Studio</label
+                    >Studio</label
                   >
                   <div class="input-group">
                     <input
                       type="text"
                       class="form-control border-secondary border-end-0 fw-bold"
                       aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Studio"
+                      placeholder="Studio"
                     />
                     <button
                       type="button"
@@ -289,32 +286,20 @@
                     </button>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label
-                      for="exampleFormControlInput1"
-                      class="form-label fw-bold"
-                      >Album Name (Zawgyi)</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                </div>
+                
+                
                 <div class="col-lg-6 mb-4">
                   <label
                     for="exampleFormControlInput1"
                     class="form-label fw-bold"
-                    >Select Mixing</label
+                    >Engineer Name</label
                   >
                   <div class="input-group">
                     <input
                       type="text"
                       class="form-control border-secondary border-end-0 fw-bold"
                       aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Mixing"
+                      placeholder="Choose Engineer"
                     />
                     <button
                       type="button"
@@ -332,25 +317,132 @@
                     </button>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label
-                      for="exampleFormControlInput1"
-                      class="form-label fw-bold"
-                      >Release Year</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100"
-                      id="exampleFormControlInput1"
-                    />
-                  </div>
-                </div>
+                
                 <div class="col-lg-6 mb-4">
                   <label
                     for="exampleFormControlInput1"
                     class="form-label fw-bold"
-                    >Select Photographer</label
+                    >Producer</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Producer"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fw-bold"
+                    >Record Label</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose  Record Label"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fw-bold"
+                    >Album Art Desinger</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Graphic Desinger"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fw-bold"
+                    >Copyright</label
+                  >
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      class="form-control border-secondary border-end-0 fw-bold"
+                      aria-label="Text input with segmented dropdown button"
+                      placeholder="Choose Copyright"
+                    />
+                    <button
+                      type="button"
+                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <span class="visually-hidden">Toggle Dropdown</span>
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                    </ul>
+                    <button class="btn btn-secondary mx-3 rounded-3">
+                      <i class="fa-solid fa-plus"></i>
+                    </button>
+                  </div>
+                </div>
+                
+                <div class="col-lg-6 mb-4">
+                  <label
+                    for="exampleFormControlInput1"
+                    class="form-label fw-bold"
+                    >Photographer</label
                   >
                   <div class="input-group">
                     <input
@@ -380,7 +472,7 @@
                     <label
                       for="exampleFormControlInput1"
                       class="form-label fw-bold"
-                      >No. of Tracks</label
+                      >Total Tracks</label
                     >
                     <input
                       type="text"
@@ -389,41 +481,12 @@
                     />
                   </div>
                 </div>
-                <div class="col-lg-6 mb-4">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label fw-bold"
-                    >Select Record Label</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose  Record Label"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                    <button class="btn btn-secondary mx-3 rounded-3">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
                 <div class="col-lg-6">
                   <div class="mb-3">
                     <label
                       for="exampleFormControlInput1"
                       class="form-label fw-bold"
-                      >Created Date</label
+                      >Relase Date</label
                     >
                     <input
                       type="text"
@@ -433,176 +496,35 @@
                     />
                   </div>
                 </div>
-                <div class="col-lg-6 mb-4">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label fw-bold"
-                    >Select Producer</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Producer"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                    <button class="btn btn-secondary mx-3 rounded-3">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
+                
                 <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label
-                      for="exampleFormControlInput1"
-                      class="form-label fw-bold"
-                      >Created By</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100 fw-bold"
-                      id="exampleFormControlInput1"
-                      placeholder="Admin"
-                    />
+                  <div class="mb-3 d-flex align-items-center">
+                    <div class="">
+                      <label
+                        for="exampleFormControlInput1"
+                        class="form-label fw-bold"
+                        >Cover Path</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control w-100"
+                        id="exampleFormControlInput1"
+                      />
+                    </div>
+                    <div class="mx-3 d-flex">
+                      <button class="btn btn-light mt-4 me-2">
+                        <i class="fa-solid fa-image text-primary"></i>
+                      </button>
+                      <button class="btn btn-light mt-4">
+                        <i class="fa-solid fa-arrow fa-arrow-up text-primary"></i>
+                      </button>
+                    </div>
                   </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label fw-bold"
-                    >Select Copyright</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Copyright"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                    <button class="btn btn-secondary mx-3 rounded-3">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label fw-bold"
-                    >Select Genre</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Genre"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                    <button class="btn btn-secondary mx-3 rounded-3">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label fw-bold"
-                    >Select Graphic Desinger</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Graphic Desinger"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                    <button class="btn btn-secondary mx-3 rounded-3">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <label
-                    for="exampleFormControlInput1"
-                    class="form-label fw-bold"
-                    >Select Engineer</label
-                  >
-                  <div class="input-group">
-                    <input
-                      type="text"
-                      class="form-control border-secondary border-end-0 fw-bold"
-                      aria-label="Text input with segmented dropdown button"
-                      placeholder="Choose Engineer"
-                    />
-                    <button
-                      type="button"
-                      class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <span class="visually-hidden">Toggle Dropdown</span>
-                    </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                    <button class="btn btn-secondary mx-3 rounded-3">
-                      <i class="fa-solid fa-plus"></i>
-                    </button>
-                  </div>
-                </div>
-                <div class="col-lg-6 mb-4">
-                  <div class="bg-white w-100 h-25"></div>
                 </div>
 
                 <hr class="mb-4" />
                 <div class="col-lg-12 text-end">
-                  <button class="btn btn-secondary rounded-3 fw-bold">
-                    Close False
-                  </button>
-                  <button class="btn btn-primary rounded-3 fw-bold">
+                  <button class="btn btn-dark border-light rounded-3 fw-bold px-5">
                     Submit
                   </button>
                 </div>
