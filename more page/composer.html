@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  data-theme="dark">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,7 +8,7 @@
     <link rel="icon" href="/assest/img/AMPH-Logo/AMPHFavicon.svg" />
     <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/css/all.min.css" />
-    <link rel="stylesheet" href="/assest/css/animate.min.css">
+    <link rel="stylesheet" href="/assest/css/animate.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -74,6 +74,41 @@
                     <i class="fa-solid fa-users me-1"></i>
                     Users
                   </a>
+                  <a
+                    href="/more page/addlyrics.html"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-feather me-2"></i>
+                    Add Lyrics
+                  </a>
+                  <a
+                    href="/more page/addalbum.html"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-folder-plus me-2"></i>
+                    Add Album
+                  </a>
+                  <a
+                    href="/more page/addcom.html"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-user-pen me-1"></i>
+                    Add Composer
+                  </a>
+                  <a
+                    href="/more page/addart.html"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-user-plus me-1"></i>
+                    Add Artist
+                  </a>
+                  <a
+                    href="/more page/login.html"
+                    class="list-group-item list-group-item-action fw-bold"
+                  >
+                    <i class="fa-solid fa-right-from-bracket me-2"></i>
+                    Logout
+                  </a>
                   <div class="d-flex align-items-center ms-3">
                     <div class="form-check form-switch">
                       <input
@@ -95,174 +130,250 @@
       <main class="main">
         <div class="container-fluid">
           <nav
-          class="row px-2 py-3 py-lg-0 mb-3 shadow position-sticky top-0 nav border border-end-0 border-start-0 border-top-0 border-bottom-5 bg animate__animated animate__fadeInDown"
-        >
-          <div class="col">
-            <div
-              class="row justify-content-between align-items-center py-lg-3 py-1"
-            >
-              <div class="col d-lg-none">
-                <div class="aside-btn">
-                  <i class="fa-solid fa-bars ms-1"></i>
-                </div>
-              </div>
-
-              <div class="col">
-                <div
-                  class="me-3 text-end d-flex justify-content-between justify-content-lg-end"
-                >
-                <div class="dropdown">
-                  <button class="btn btn-outline-dark text-primary fw-bold me-2 px-3 py-2 px-lg-5 border-light rounded-3 dropdown-toggle mx-lg-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                     Admin
-                     <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle mx-3">
-                  </button>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">
-                      <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
-                      <span class="fw-bold">Admin</span>
-                    </a></li>
-                    <li><a class="dropdown-item" href="#">
-                      <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
-                      <span class="fw-bold">Author</span>
-                    </a></li>
-                    <li><a class="dropdown-item" href="#">
-                      <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
-                      <span class="fw-bold">Editor</span>
-                    </a></li>
-                    <li><a class="dropdown-item" href="#">
-                      <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
-                      <span class="fw-bold">
-                         User
-                      </span>
-                    </a></li>
-                  </ul>
-                </div>
-                  <div class="dropdown">
-                    <button class="btn btn-outline-dark text-primary border-light  rounded-2 py-2 dropdown-toggle mx-lg-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      <img src="/assest/img/226-united-states.svg" alt="" class="haha">
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">
-                        <img src="/assest/img/1024px-flag_of_myanmar.svg.png" alt="" class="haha">
-                        <span class="fw-bold">Myanmar</span>
-                      </a></li>
-                    </ul>
+            class="row px-2 py-3 py-lg-0 mb-3 shadow position-sticky top-0 nav border border-end-0 border-start-0 border-top-0 border-bottom-5 bg animate__animated animate__fadeInDown"
+          >
+            <div class="col">
+              <div
+                class="row justify-content-between align-items-center py-lg-3 py-1"
+              >
+                <div class="col d-lg-none">
+                  <div class="aside-btn">
+                    <i class="fa-solid fa-bars ms-1"></i>
                   </div>
-                  <a class="position-relative">
-                    <i class="fa-solid fa-bell text-danger p-2 mt-1 fa-2x"></i>
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                    >
-                      7
-                    </span>
-                  </a>
+                </div>
+
+                <div class="col">
+                  <div
+                    class="me-3 text-end d-flex justify-content-between justify-content-lg-end"
+                  >
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-outline-dark text-primary fw-bold px-3 me-2 py-2 px-lg-5 border-light rounded-3 dropdown-toggle mx-lg-3"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Admin
+                        <img
+                          src="/assest/img/admin.jpg"
+                          alt=""
+                          class="haha rounded-circle mx-3"
+                        />
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/admin.jpg"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold">Admin</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/author.jpg"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold">Author</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/editor.webp"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold">Editor</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/user.jpeg"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold"> User </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <button
+                        class="btn btn-outline-dark text-primary border-light rounded-2 py-2 dropdown-toggle mx-lg-3"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <img
+                          src="/assest/img/226-united-states.svg"
+                          alt=""
+                          class="haha"
+                        />
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/1024px-flag_of_myanmar.svg.png"
+                              alt=""
+                              class="haha"
+                            />
+                            <span class="fw-bold">Myanmar</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <a class="position-relative">
+                      <i
+                        class="fa-solid fa-bell text-danger p-2 mt-1 fa-2x"
+                      ></i>
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      >
+                        7
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        </nav>
-          <div class="card w-100 border-0 shadow rounded-3 px-3 bg-contact my-5">
+          </nav>
+          <div
+            class="card w-100 border-0 shadow rounded-3 px-3 bg-contact my-5"
+          >
             <div class="card-body">
-              <div
-                class="row d-flex align-items-center justify-content-between mb-2 mt-5"
-              >
-                <div class="col-6">
-                  <div class="">
-                    <h5 class="fw-bold">Composer Form</h5>
-                  </div>
-                </div>
-              </div>
-              <hr class="fw-bold"/>
-              <div class="row justify-content-center align-items-center">
-                
-              <div class="col-12">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label fw-bold"
-                    >Composer Name (English)</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control w-100"
-                    id="exampleFormControlInput1"
-                  />
-                </div>
-              </div>
-              
-              <div class="col-lg-6">
-                <div class="mb-3">
-                  <label for="exampleFormControlInput1" class="form-label fw-bold"
-                    >Composer Name (Burmese)</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control w-100"
-                    id="exampleFormControlInput1"
-                  />
-                </div>
-              </div>
-              <div class="col-lg-6 mb-4">
-                <label for="exampleFormControlInput1" class="form-label fw-bold"
-                  >Gender</label
-                >
-                <div class="input-group">
-                  <input
-                    type="text"
-                    class="form-control border-secondary border-end-0 fw-bold"
-                    aria-label="Text input with segmented dropdown button"
-                    placeholder="Choose Gender"
-                  />
-                  <button
-                    type="button"
-                    class="btn btn-outline-secondary border-start-0 border-secondary dropdown-toggle dropdown-toggle-split"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    <span class="visually-hidden">Toggle Dropdown</span>
-                  </button>
-                  <ul class="dropdown-menu dropdown-menu-end">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                  </ul>
-                </div>
-              </div>
-                <div class="col-lg-6">
-                  <div class="mb-3 d-flex align-items-center">
-                    <div class="">
-                      <label for="exampleFormControlInput1" class="form-label fw-bold"
-                        >Profile Picture</label
-                      >
+              <div class="row justify-content-between align-items-center">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="col-lg-6">
+                    <div class="input-group">
+                      <div class="input-group-text">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </div>
                       <input
                         type="text"
-                        class="form-control w-100"
-                        id="exampleFormControlInput1"
+                        class="form-control fw-bold"
+                        placeholder="Search..."
                       />
                     </div>
-                    <div class="mx-3 d-flex">
-                      <button class="btn btn-light mt-4 me-2">
-                        <i class="fa-solid fa-image text-primary"></i>
+                  </div>
+                  <div class="col-lg-6 text-end">
+                    <a href="/more page/addcom.html">
+                      <button
+                        class="btn btn-dark border-light fw-bold rounded-circle w-butt"
+                      >
+                        <p class="fw-bold">
+                          <i class="fa-solid fa-user-pen fa-2x pt-2"></i>
+                        </p>
                       </button>
-                      <button class="btn btn-light mt-4">
-                        <i class="fa-solid fa-arrow fa-arrow-up text-primary"></i>
-                      </button>
-                    </div>
+                    </a>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label fw-bold"
-                      >Relase Date</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control w-100 fw-bold"
-                      id="exampleFormControlInput1"
-                      placeholder="3/3/2023, 14:22:26"
-                    />
-                  </div>
-                </div>
-              
-                <hr class="mb-4" />
-                <div class="col-lg-12 text-end">
-                  <button class="btn btn-dark rounded-3 fw-bold px-5 border">Submit</button>
+                <div class="col table-responsive">
+                  <table class="table bg-white my-5 text-nowrap">
+                    <thead class="fw-bold bg-secondary text-white">
+                      <th>N0 .</th>
+                      <th>PROFILE</th>
+                      <th>COMPOSER NAME(ENGLISH)</th>
+                      <th>COMPOSER NAME(BURMESE)</th>
+                      <th>GENDER</th>
+                      <th>RELASE DATE</th>
+                      <th>CREATED BY</th>
+                      <th>ACTION</th>
+                    </thead>
+                    <tbody>
+                      <tr class="fw-bold">
+                        <td>01.</td>
+                        <td class="fw-bold">
+                          <img
+                            src="/assest/img/olivia-rodrigo-in-gold.avif"
+                            alt=""
+                            class="w-photo1 rounded-3 border border-warning"
+                          />
+                        </td>
+                        <td>
+                          <p class="fw-bold">Olivia Rodrigo</p>
+                        </td>
+                        <td>
+                          <p class="fw-bold">-</p>
+                        </td>
+                        <td>
+                          <p class="fw-bold">Female</p>
+                        </td>
+                        <td>
+                          <p class="fw-bold">9.3.2023</p>
+                        </td>
+                        <td>
+                          <button class="btn btn-primary fw-bold">Admin</button>
+                        </td>
+                        <td>
+                          <button class="btn btn-warning">
+                            <i class="fa-solid fa-pen text-white"></i>
+                          </button>
+                          <button class="btn btn-danger">
+                            <i class="fa-solid fa-trash text-white"></i>
+                          </button>
+                        </td>
+                      </tr>
+                      <tr class="fw-bold">
+                        <td>02.</td>
+                        <td class="fw-bold">
+                          <img
+                            src="/assest/img/taylor.jpeg"
+                            alt=""
+                            class="w-photo1 rounded-3 border border-warning"
+                          />
+                        </td>
+                        <td>
+                          <p class="fw-bold">Taylor Swift</p>
+                        </td>
+                        <td>
+                          <p class="fw-bold">-</p>
+                        </td>
+                        <td>
+                          <p class="fw-bold">Female</p>
+                        </td>
+                        <td>
+                          <p class="fw-bold">9.3.2023</p>
+                        </td>
+                        <td>
+                          <button class="btn btn-primary fw-bold">Admin</button>
+                        </td>
+                        <td>
+                          <button class="btn btn-warning">
+                            <i class="fa-solid fa-pen text-white"></i>
+                          </button>
+                          <button class="btn btn-danger">
+                            <i class="fa-solid fa-trash text-white"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <nav aria-label="...">
+                    <ul class="pagination">
+                      <li class="page-item">
+                        <a class="page-link fw-bold">Previous</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link fw-bold" href="#">1</a>
+                      </li>
+                      <li class="page-item active" aria-current="page">
+                        <a class="page-link fw-bold" href="#">2</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link fw-bold" href="#">3</a>
+                      </li>
+                      <li class="page-item">
+                        <a class="page-link fw-bold" href="#">Next</a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
             </div>
