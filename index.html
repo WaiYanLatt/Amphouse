@@ -95,7 +95,7 @@
       <main class="main">
         <div class="container-fluid">
           <nav
-            class="row px-2 mb-3 shadow position-sticky top-0 nav border border-end-0 border-start-0 border-top-0 border-bottom-5 bg animate__animated animate__fadeInDown"
+            class="row px-2 py-3 py-lg-0 mb-3 shadow position-sticky top-0 nav border border-end-0 border-start-0 border-top-0 border-bottom-5 bg animate__animated animate__fadeInDown"
           >
             <div class="col">
               <div
@@ -111,17 +111,51 @@
                   <div
                     class="me-3 text-end d-flex justify-content-between justify-content-lg-end"
                   >
-                    <button class="btn btn-outline-secondary mx-3">
-                      <img
-                        src="/assest/img/Flag_of_the_United_States.svg"
-                        alt=""
-                        class="haha"
-                      />
+                  <div class="dropdown">
+                    <button class="btn btn-outline-dark text-primary fw-bold me-2 px-3 py-2 px-lg-5 border-light rounded-3 dropdown-toggle mx-lg-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                       Admin
+                       <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle mx-3">
                     </button>
-                    <button class="btn btn-outline-secondary fw-bold me-3 px-3">
-                      Admin
-                    </button>
-                    <button class="btn btn-success fw-bold">A</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">
+                        <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
+                        <span class="fw-bold">Admin</span>
+                      </a></li>
+                      <li><a class="dropdown-item" href="#">
+                        <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
+                        <span class="fw-bold">Author</span>
+                      </a></li>
+                      <li><a class="dropdown-item" href="#">
+                        <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
+                        <span class="fw-bold">Editor</span>
+                      </a></li>
+                      <li><a class="dropdown-item" href="#">
+                        <img src="/assest/img/cover_new.jpg" alt="" class="haha rounded-circle me-3">
+                        <span class="fw-bold">
+                           User
+                        </span>
+                      </a></li>
+                    </ul>
+                  </div>
+                    <div class="dropdown">
+                      <button class="btn btn-outline-dark text-primary border-light  rounded-2 py-2 dropdown-toggle mx-lg-3" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="/assest/img/226-united-states.svg" alt="" class="haha">
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">
+                          <img src="/assest/img/1024px-flag_of_myanmar.svg.png" alt="" class="haha">
+                          <span class="fw-bold">Myanmar</span>
+                        </a></li>
+                      </ul>
+                    </div>
+                    <a class="position-relative">
+                      <i class="fa-solid fa-bell text-danger p-2 mt-1 fa-2x"></i>
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      >
+                        7
+                      </span>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -136,7 +170,7 @@
                     <div class="col-6">
                       <h6 class="text-dark fw-bold">Total lyrics</h6>
                       <h4 class="text-dark fw-bold mt-5">246k</h4>
-                      <div class="fw-bold text-orange">
+                      <div class="fw-bold text-danger">
                         <i class="fa-solid fa-arrow-down"></i>
                         13.8 %
                       </div>
@@ -316,63 +350,79 @@
             </div>
             <div class="col-lg-4 mb-3 mb-lg-0">
               <div class="card border-0 shadow rounded-3">
-                <div class="card-body">
-                  <h6 class="fw-bold">Top Lyrics</h6><hr>
-                  <div class=" d-flex justify-content-between align-items-center">
+                <div class="card-body text-dark">
+                  <h6 class="fw-bold">Top Lyrics</h6>
+                  <hr />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
                     <div class="d-flex align-items-center">
                       <i class="fa-solid fa-image fa-2x"></i>
-                     <p class="fw-bold ms-2 mt-3">Achit So The Mar</p>
+                      <p class="fw-bold ms-2 mt-3">Achit So The Mar</p>
                     </div>
-                     <div class="">
+                    <div class="">
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
-                     </div>
-                  </div><hr>
-                  <div class=" d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
                     <div class="d-flex align-items-center">
                       <i class="fa-solid fa-image fa-2x"></i>
-                     <p class="fw-bold ms-2 mt-3">Ahmat Ta Ya</p>
+                      <p class="fw-bold ms-2 mt-3">Ahmat Ta Ya</p>
                     </div>
-                     <div class="">
+                    <div class="">
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
-                     </div>
-                  </div><hr>
-                  <div class=" d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
                     <div class="d-flex align-items-center">
                       <i class="fa-solid fa-image fa-2x"></i>
-                     <p class="fw-bold ms-2 mt-3">Doh</p>
+                      <p class="fw-bold ms-2 mt-3">Doh</p>
                     </div>
-                     <div class="">
+                    <div class="">
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
-                     </div>
-                  </div><hr>
-                  <div class=" d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
                     <div class="d-flex align-items-center">
                       <i class="fa-solid fa-image fa-2x"></i>
-                     <p class="fw-bold ms-2 mt-3">Sagaing Lan</p>
+                      <p class="fw-bold ms-2 mt-3">Sagaing Lan</p>
                     </div>
-                     <div class="">
+                    <div class="">
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
-                     </div>
-                  </div><hr>
-                  <div class=" d-flex justify-content-between align-items-center">
+                    </div>
+                  </div>
+                  <hr />
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
                     <div class="d-flex align-items-center">
                       <i class="fa-solid fa-image fa-2x"></i>
-                     <p class="fw-bold ms-2 mt-3">8/82 Inya</p>
+                      <p class="fw-bold ms-2 mt-3">8/82 Inya</p>
                     </div>
-                     <div class="">
+                    <div class="">
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
                       <i class="fa-solid fa-star text-orange"></i>
-                     </div>
-                  </div><hr>
+                    </div>
+                  </div>
+                  <hr />
                 </div>
               </div>
             </div>

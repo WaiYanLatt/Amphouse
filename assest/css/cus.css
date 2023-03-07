@@ -63,7 +63,8 @@ body{
     height: 65px;
 }
 .haha{
-    width: 25px;
+    width: 30px;
+    height:30px;
 }
 .nav{
     z-index: 5;
@@ -73,13 +74,23 @@ body{
     background-color:var(--dh-bg-dark) ;
 }
 .w-photo1{
-    width:50px;
-    height:50px;
+    width:65px;
+    height:65px;
 }
 .btn-dark:hover{
     background-color:#f47423;
     border:1px solid #f47423;
     transition:0.5s;
+}
+.w-butt{
+    width:60px;
+    height:60px;
+}
+.border-orange{
+    border:1px solid #f47423;
+}
+.bg-green{
+    background-color:#3FF28C;
 }
 @media screen and (max-width:850px) {
     .aside{
