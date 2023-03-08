@@ -104,6 +104,27 @@ body{
 .ml-8{
     margin-left:108px;
 }
+.w-fff{
+    width:50%;
+}
+.w-fff1{
+    width:85%;
+}
+.w-fff2{
+    width:30%;
+}
+.bg-111{
+    margin:0;
+    padding:0; 
+    min-height: 100vh;
+    width: 100%;
+    background: url('/assest/img/ezgif.com-video-to-gif-8.gif')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.border-light11{
+    border:1px solid white;
+}
 @media screen and (max-width:850px) {
     .aside{
         position: fixed;
@@ -132,5 +153,17 @@ body{
     }
     .ml-8{
         margin-left:85px;
+    }
+    .w-fff{
+        width:100%;
+    }
+    .w-fff1{
+        width:100%;
+    }
+    .w-fff2{
+        width:100%;
+    }
+    .border-light11{
+        border:0px;
     }
 }
