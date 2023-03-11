@@ -19,7 +19,7 @@ body{
     width: 100%;
 }
 .aside{
-    width: 20rem;
+    display:none;
     background-color:var(--dh-bg-dark);
 }
 .list-group-item{
@@ -124,6 +124,10 @@ body{
 }
 .border-light11{
     border:1px solid white;
+}
+.aside.show{
+    display:block;
+    width:20rem;
 }
 @media screen and (max-width:850px) {
     .aside{

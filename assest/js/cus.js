@@ -1,6 +1,7 @@
 let asidebtn = document.querySelector('.aside-btn');
 let aside = document.querySelector('.aside');
 let backdrop = document.querySelector('.__backdrop');
+let main = document.querySelector('.main')
 
 asidebtn.addEventListener('click', () =>{
     aside.classList.add('show');
@@ -13,6 +14,15 @@ backdrop.addEventListener('click', () =>{
     backdrop.classList.remove('offcanvas-backdrop');
     backdrop.classList.remove('show');
 });
+
+let btnbtn = document.querySelector('#btnbtn');
+btnbtn.addEventListener('click',() => {
+  aside.classList.toggle('show');
+  aside.classList.toggle('animate__fadeInLeft')
+})
+
+
+
 
 
 // Theme
