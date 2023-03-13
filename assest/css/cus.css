@@ -17,20 +17,20 @@ body {
 }
 .main {
   margin: 0 0 0 auto;
-  width: 100%;
+  width: 95%;
 }
 .asss {
   position: fixed;
 }
-/* .aside12{
-    margin-right:10rem ;
-    position: fixed ;
-    height: 100vh;
-} */
+.aside12 {
+  width: 5%;
+  position: fixed;
+  height: 100vh;
+}
 .aside {
   position: fixed;
   margin-left: -100%;
-  width: 20%;
+  width: 17%;
   background-color: var(--dh-bg-dark);
 }
 .list-group-item {
@@ -151,47 +151,53 @@ body {
 }
 .main.show {
   animation: left;
-  animation-duration: 0.2s;
-  width: 80%;
+  animation-duration: 0.4s;
+  width: 83%;
 }
 #btnClose {
   display: none;
 }
 .aside.close {
   animation: goRight;
-  animation-duration: 0.2s;
+  animation-duration: 1s;
   margin-left: -100%;
 }
 .main.close {
   animation: right;
   animation-duration: 0.2s;
-  width: 100%;
+  width: 95%;
 }
 .shadow-1 {
-  box-shadow: #94a3b8 0px 3px 3px;
-  box-shadow: #94a3b8 0px 3px 3px;
+  box-shadow: #94a3b8 0px 1px 10px;
+  box-shadow: #94a3b8 0px 1px 10px;
 }
 .shadow-2 {
-  box-shadow: #94a3b8  0px 3px 8px;
-  box-shadow: #94a3b8  0px 3px 8px;
+  box-shadow: #94a3b8 0px 3px 15px;
+  box-shadow: #94a3b8 0px 3px 15px;
 }
-.bg-secondary{
-    background-color: #94a3b8!important;
+.bg-secondary {
+  background-color: #6b7280 !important;
+}
+.bg-success{
+    background-color: #22c55e!important;
+}
+.border-success{
+   border-color: #22c55e!important;
 }
 @keyframes left {
   0% {
-    width: 100%;
+    width: 95%;
   }
   100% {
-    width: 80%;
+    width: 83%;
   }
 }
 @keyframes right {
   0% {
-    width: 80%;
+    width: 83%;
   }
   100% {
-    width: 100%;
+    width: 95%;
   }
 }
 @keyframes goLeft {
@@ -210,10 +216,14 @@ body {
     margin-left: -100%;
   }
 }
+.form-check-input:checked{
+  background-color: #f47423;
+  border-color: #f47423;
+}
 @media screen and (max-width: 850px) {
   .aside {
     position: fixed;
-    width: 13rem;
+    width: 15rem;
     top: 0;
     left: -100%;
     transition: 1s;
@@ -222,8 +232,11 @@ body {
     background-color: var(--dh-bg-dark);
   }
   .aside.show {
-    width: 13rem;
+    width: 15rem;
     left: 0;
+  }
+  .main {
+    width: 100%;
   }
   .main.show {
     animation: none;

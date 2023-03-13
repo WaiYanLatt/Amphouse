@@ -40,7 +40,6 @@
                   class="list-group-item list-group-item-action active fw-bold py-3"
                 >
                   <i class="fa-solid fa-chart-simple me-2"></i>
-                 
                 </a>
                 <a
                   class="list-group-item list-group-item-action fw-bold py-3"
@@ -157,16 +156,6 @@
                 >
                   <i class="fa-sharp fa-solid fa-door-open me-2"></i>
                 </a>
-                <div class="d-flex align-items-center ms-3 py-3">
-                  <div class="form-check form-switch">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      role="switch"
-                      id="changeTheme"
-                    />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -326,6 +315,17 @@
                     <i class="fa-sharp fa-solid fa-door-open me-2"></i>
                     Logout
                   </a>
+                  <div class="d-flex align-items-center ms-3 py-2">
+                    <div class="form-check form-switch">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="changeTheme"
+                      />
+                    </div>
+                    <p class="fw-bold mt-2 text-white">Change Theme</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -333,23 +333,25 @@
         </div>
       </aside>
       <div class="__backdrop fade"></div>
-      <main class="main" >
+      <main class="main">
         <div class="container-fluid">
           <nav
-            class="row px-2 py-3 py-lg-0 mb-3 shadow-1 position-sticky top-0 nav  bg animate__animated animate__fadeInDown"
+            class="row px-2 py-3 py-lg-0 mb-3 shadow-1 position-sticky top-0 nav bg animate__animated animate__fadeInDown"
           >
             <div class="col">
               <div
                 class="row justify-content-between align-items-center py-lg-3 py-1"
               >
-              <div class="bg-secondary d-none d-lg-block position-absolute hahah haha1 rounded-circle d-flex justify-content-center align-items-center">
-                <div class="" id="btnbtn">
-                  <i class="fa-solid fa-angle-right text-white mt-3 ms-2"></i>
+                <div
+                  class="bg-secondary d-none d-lg-block position-absolute hahah haha1 rounded-circle d-flex justify-content-center align-items-center"
+                >
+                  <div class="" id="btnbtn">
+                    <i class="fa-solid fa-angle-right text-white mt-3 ms-2"></i>
+                  </div>
+                  <div class="" id="btnClose">
+                    <i class="fa-solid fa-angle-left text-white mt-3 ms-2"></i>
+                  </div>
                 </div>
-                <div class="" id="btnClose">
-                  <i class="fa-solid fa-angle-left text-white  mt-3 ms-2"></i>
-                </div>
-              </div>
                 <div class="col d-lg-none">
                   <div class="aside-btn">
                     <i class="fa-solid fa-bars fa-2x ms-1"></i>
@@ -357,110 +359,108 @@
                 </div>
 
                 <div class="col">
-                  <div
-                    class="me-3 text-end d-flex  justify-content-lg-end"
-                  >
-                  <a class="position-relative">
-                    <i
-                      class="fa-solid fa-bell text-secondary p-2 mt-1 fa-2x"
-                    ></i>
-                    <span
-                      class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
-                    >
-                      7
-                    </span>
-                  </a>
-                  <div class="dropdown">
-                    <a
-                      class="text-decoration-none text-primary border-light rounded-2 py-2 dropdown-toggle mx-lg-3"
-                      type="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      <img
-                        src="/assest/img/226-united-states.svg"
-                        alt=""
-                        class="haha rounded-circle"
-                      />
+                  <div class="me-lg-3 text-end d-flex justify-content-lg-end">
+                    <a class="position-relative">
+                      <i
+                        class="fa-solid fa-bell text-secondary p-2 mt-1 fa-2x"
+                      ></i>
+                      <span
+                        class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                      >
+                        7
+                      </span>
                     </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="#">
-                          <img
-                            src="/assest/img/1024px-flag_of_myanmar.svg.png"
-                            alt=""
-                            class="haha rounded-circle"
-                          />
-                          <span class="fw-bold">Myanmar</span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="dropdown">
-                    <a
-                      class="text-decoration-none text-primary mx-3 border-2 border border-secondary border-end-0 fw-bold me-2 px-3 py-2 px-lg-2  rounded-0 border-top-0 border-bottom-0 dropdown-toggle mx-lg-2"
-                      type="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Admin
-                      <img
-                        src="/assest/img/admin.jpg"
-                        alt=""
-                        class="haha rounded-circle mx-1"
-                      />
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li>
-                        <a class="dropdown-item" href="#">
-                          <img
-                            src="/assest/img/admin.jpg"
-                            alt=""
-                            class="haha rounded-circle me-3"
-                          />
-                          <span class="fw-bold">Admin</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">
-                          <img
-                            src="/assest/img/author.jpg"
-                            alt=""
-                            class="haha rounded-circle me-3"
-                          />
-                          <span class="fw-bold">Author</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">
-                          <img
-                            src="/assest/img/editor.webp"
-                            alt=""
-                            class="haha rounded-circle me-3"
-                          />
-                          <span class="fw-bold">Editor</span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="dropdown-item" href="#">
-                          <img
-                            src="/assest/img/user.jpeg"
-                            alt=""
-                            class="haha rounded-circle me-3"
-                          />
-                          <span class="fw-bold"> User </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>  
+                    <div class="dropdown">
+                      <a
+                        class="text-decoration-none text-primary border-light rounded-2 py-2 dropdown-toggle mx-lg-3"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <img
+                          src="/assest/img/226-united-states.svg"
+                          alt=""
+                          class="haha rounded-circle"
+                        />
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/1024px-flag_of_myanmar.svg.png"
+                              alt=""
+                              class="haha rounded-circle"
+                            />
+                            <span class="fw-bold">Myanmar</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="dropdown">
+                      <a
+                        class="text-decoration-none text-primary mx-2 border-2 border border-secondary border-end-0 fw-bold me-2 px-3 py-2 px-lg-2 rounded-0 border-top-0 border-bottom-0 dropdown-toggle mx-lg-2"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Admin
+                        <img
+                          src="/assest/img/admin.jpg"
+                          alt=""
+                          class="haha rounded-circle mx-1"
+                        />
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/admin.jpg"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold">Admin</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/author.jpg"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold">Author</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/editor.webp"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold">Editor</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <img
+                              src="/assest/img/user.jpeg"
+                              alt=""
+                              class="haha rounded-circle me-3"
+                            />
+                            <span class="fw-bold"> User </span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </nav>
-           <div class="" id="conta">
+          <div class="" id="conta">
             <h5 class="fw-bold my-5">Overview</h5>
-            <div  class="row justify-content-between align-items-center">
+            <div class="row justify-content-between align-items-center">
               <div class="col-lg-4 mb-4 mb-lg-0">
                 <div class="card rounded-3 bg-transparent shadow-1">
                   <div class="card-body">
@@ -483,7 +483,7 @@
                 </div>
               </div>
               <div class="col-lg-4 mb-4 mb-lg-0">
-                <div class="card  shadow-1 rounded-3 bg-transparent">
+                <div class="card shadow-1 rounded-3 bg-transparent">
                   <div class="card-body">
                     <div class="row justify-content-between align-items-center">
                       <div class="col-6">
@@ -504,7 +504,7 @@
                 </div>
               </div>
               <div class="col-lg-4">
-                <div class="card  shadow-1 rounded-3 bg-transparent">
+                <div class="card shadow-1 rounded-3 bg-transparent">
                   <div class="card-body">
                     <div class="row justify-content-between align-items-center">
                       <div class="col-6">
@@ -527,7 +527,9 @@
             </div>
             <div class="row justify-content-between align-items-center my-5">
               <div class="col-lg-8 mb-5 mb-lg-0">
-                <div class="card  shadow-1 rounded-3 table-responsive bg-transparent">
+                <div
+                  class="card shadow-1 rounded-3 table-responsive bg-transparent"
+                >
                   <div class="card-body">
                     <table class="table my-5 text-nowrap text-secondary">
                       <thead class="fw-bold bg-secondary text-white">
@@ -642,7 +644,9 @@
                         </tr>
                       </tbody>
                     </table>
-                    <a href="#" class="text-decoration-none fw-bold">Show More</a>
+                    <a href="#" class="text-decoration-none fw-bold"
+                      >Show More</a
+                    >
                   </div>
                 </div>
               </div>
@@ -725,17 +729,17 @@
                 </div>
               </div>
             </div>
-           </div>
+          </div>
         </div>
         <footer class="container-fluid">
-          <div class="row justify-content-between align-items-center bg-transparent shadow-2">
+          <div
+            class="row justify-content-between align-items-center bg-transparent shadow-2"
+          >
             <div class="col-6 my-3">
               <p class="fw-bold pt-3">2023 ©Amphouse.net</p>
             </div>
             <div class="col-6 my-3">
-              <p class="fw-bold pt-3 text-end">
-                Developed By Media X
-              </p>
+              <p class="fw-bold pt-3 text-end">Developed By Media X</p>
             </div>
           </div>
         </footer>
